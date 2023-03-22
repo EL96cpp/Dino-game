@@ -1,3 +1,0 @@
-/home/el96/C++/Dino/Source/build/CMakeFiles/Main.dir
-/home/el96/C++/Dino/Source/build/CMakeFiles/edit_cache.dir
-/home/el96/C++/Dino/Source/build/CMakeFiles/rebuild_cache.dir
