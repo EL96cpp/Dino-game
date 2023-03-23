@@ -26,15 +26,9 @@ void Button::Update(sf::RenderWindow& window, sf::Vector2i& mousePos) {
     this->button_state = IDLE;
     sf::Vector2f vec(mousePos);
 
-//    if (this->shape.getGlobalBounds().contains(vec)) {
-//        button_state = HOVER;
-//        if (sf::Mouse::isButtonPressed(sf::Mouse::Left)) {
-//            button_state = PRESSED;
-//        }
-//    }
-        if (this->shape.getGlobalBounds().contains(vec)){
-            button_state = HOVER;
-        }
+    if (this->shape.getGlobalBounds().contains(vec)){
+      button_state = HOVER;
+    }
     
     switch(button_state) {
         case IDLE:
