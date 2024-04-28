@@ -38,7 +38,7 @@ class Player {
         float timer;
         int y;
         float velocity_y = 0;
-        const float gravity_y = 0.35;
+        const float gravity_y = 0.5;
         
 };
 

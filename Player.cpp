@@ -38,8 +38,10 @@ void Player::Update(const float& dt, const float& game_speed) {
 
         case JUMPING:
             _player.setTextureRect(sf::IntRect(0, 0, 90, 95));
-            y += velocity_y * game_speed / 26;
-            velocity_y += gravity_y * game_speed / 26;
+
+            y += velocity_y * game_speed / 22;
+            velocity_y += gravity_y * game_speed / 22;
+
             _player.setPosition(PLAYER_X, y);
             if (_player.getPosition().y >= PLAYER_Y) {
                 player_state = RUNNING;

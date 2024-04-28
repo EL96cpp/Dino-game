@@ -9,7 +9,7 @@
 #include "Global.hpp"
 #include "State.hpp"
 
-//#include "TextureManager.hpp"
+#include "TextureManager.hpp"
 
 class Game {
     public:
